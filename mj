@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Map: دور المرأة في التنمية الروحية والشخصية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            direction: rtl;
+        }
+
+        .mindmap-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        .mindmap {
+            width: 100%;
+            max-width: 1200px;
+            overflow-x: scroll;
+            white-space: nowrap;
+        }
+
+        .node {
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            background-color: #e6ffe6;
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            white-space: normal;
+        }
+
+        .main-node {
+            font-weight: bold;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .link {
+            position: relative;
+            display: inline-block;
+        }
+
+        .link::before {
+            content: '';
+            width: 2px;
+            height: 50px;
+            background: #4CAF50;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .link::after {
+            content: '';
+            width: 100px;
+            height: 2px;
+            background: #4CAF50;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+
+<div class="mindmap-container">
+    <div class="mindmap">
+        <!-- Main Topic -->
+        <div class="node main-node">دور المرأة في التنمية الروحية والشخصية</div>
+
+        <!-- Spiritual Development -->
+        <div class="link">
+            <div class="node">
+                دور المرأة في التنمية الروحية
+                <ul>
+                    <li>مفهوم التنمية الروحية وأهميتها</li>
+                    <li>دور المرأة في تقديم القدوة الصالحة</li>
+                    <li>أثر الوقف الخيري وأمثلة تاريخية</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Personal Development -->
+        <div class="link">
+            <div class="node">
+                دور المرأة في التنمية الشخصية
+                <ul>
+                    <li>مفهوم التنمية الشخصية</li>
+                    <li>أهمية التنمية الشخصية</li>
+                    <li>دور المرأة في التعليم ودعم الجمعيات الخيرية</li>
+                    <li>دور المرأة في تعليم القرآن والحديث</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Subtopics for Spiritual Development -->
+        <div class="link">
+            <div class="node">
+                مفهوم التنمية الروحية
+                <ul>
+                    <li>تزكية النفس</li>
+                    <li>التقرب إلى الله</li>
+                    <li>أمثلة من القرآن والسنة</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="link">
+            <div class="node">
+                تقديم القدوة الصالحة
+                <ul>
+                    <li>أمثلة من حياة الصحابيات</li>
+                    <li>أم سليم وفضلها</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="link">
+            <div class="node">
+                الوقف الخيري
+                <ul>
+                    <li>أمثلة تاريخية</li>
+                    <li>مدرسة الصولتية في مكة</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Subtopics for Personal Development -->
+        <div class="link">
+            <div class="node">
+                مفهوم التنمية الشخصية
+                <ul>
+                    <li>فهم الذات</li>
+                    <li>تنمية المواهب</li>
+                    <li>الالتزام بالمنهج الصحيح</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="link">
+            <div class="node">
+                أهمية التنمية الشخصية
+                <ul>
+                    <li>فوائد التنمية الشخصية</li>
+                    <li>أثرها على الحياة الاجتماعية والمهنية</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="link">
+            <div class="node">
+                دور المرأة في التعليم
+                <ul>
+                    <li>التعليم والتعلم</li>
+                    <li>تنظيم الأنشطة الطلابية</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="link">
+            <div class="node">
+                دور المرأة في المراكز الخيرية
+                <ul>
+                    <li>دعم الجمعيات</li>
+                    <li>تقديم دورات ومحاضرات</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
